@@ -1,5 +1,5 @@
 
-import { Baby, Heart, Activity, Stethoscope, Pills, FirstAid } from 'lucide-react';
+import { Baby, Heart, Activity, Stethoscope, Pill, Clipboard } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const serviceItems = [
@@ -18,7 +18,7 @@ const serviceItems = [
   {
     title: "Emergency Care",
     description: "Prompt medical attention for urgent conditions requiring immediate care and treatment.",
-    icon: FirstAid,
+    icon: Clipboard,
     color: "bg-red-50 text-red-600"
   },
   {
@@ -36,7 +36,7 @@ const serviceItems = [
   {
     title: "Medication Management",
     description: "Professional guidance on prescription medications, dosage adjustment, and monitoring for effectiveness.",
-    icon: Pills,
+    icon: Pill,
     color: "bg-amber-50 text-amber-600"
   }
 ];
