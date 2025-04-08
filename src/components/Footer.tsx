@@ -1,5 +1,5 @@
 
-import { Facebook, Instagram, Twitter } from 'lucide-react';
+
 import { cn } from '@/lib/utils';
 
 const Footer = () => {
@@ -15,11 +15,7 @@ const Footer = () => {
             <p className="mb-4 text-gray-300">
               Providing quality healthcare services with compassion and expertise.
             </p>
-            <div className="flex space-x-4">
-              <SocialLink href="https://facebook.com" icon={<Facebook size={20} />} />
-              <SocialLink href="https://twitter.com" icon={<Twitter size={20} />} />
-              <SocialLink href="https://instagram.com" icon={<Instagram size={20} />} />
-            </div>
+       
           </div>
           
           {/* Quick Links */}
