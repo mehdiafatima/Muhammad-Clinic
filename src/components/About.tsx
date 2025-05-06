@@ -7,29 +7,31 @@ const About = () => {
       <div className="section-container">
         <h2 className="section-title">About Our Clinic</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="fade-in">
-            <p className="text-gray-700 mb-6 leading-relaxed">
-              Muhammad Clinic was established with a vision to provide high-quality healthcare services to the community. 
-              Under the leadership of Dr. Zoya Mustafa, we specialize in general medicine and pediatric emergency care.
-            </p>
-            <p className="text-gray-700 mb-6 leading-relaxed">
-              Our clinic is equipped with modern facilities and our team is committed to providing comprehensive healthcare 
-              with a focus on preventive care, accurate diagnosis, and effective treatment plans.
-            </p>
-            <div className="bg-secondary-light p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-primary-dark mb-4">
-                Our Commitment
-              </h3>
-              <p className="text-gray-700 italic">
-                "We are dedicated to providing compassionate and professional medical care to patients of all ages, 
-                with special attention to pediatric and women's health needs."
-              </p>
-              <p className="mt-4 text-gray-700 text-sm text-right">
-                - Dr. Zoya Mustafa
-              </p>
-            </div>
-          </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+  <div className="fade-in">
+    <p className="text-gray-700 mb-6 leading-relaxed">
+      Muhammad Clinic is a community-focused medical center led by <strong>Dr. Zoya Mustafa</strong>, 
+      a dedicated and experienced physician providing personalized care in general medicine and pediatric emergencies.
+    </p>
+    <p className="text-gray-700 mb-6 leading-relaxed">
+      With state-of-the-art facilities and a warm, welcoming environment, the clinic is committed to accurate diagnosis, 
+      preventive healthcare, and effective treatment plans — all delivered with compassion and integrity.
+    </p>
+    <div className="bg-secondary-light p-6 rounded-lg">
+      <h3 className="text-xl font-bold text-primary-dark mb-4">
+        Our Commitment
+      </h3>
+      <p className="text-gray-700 italic">
+        "I am committed to delivering thoughtful, thorough, and reliable medical care to every patient, 
+        especially focusing on children's and women's health."
+      </p>
+      <p className="mt-4 text-gray-700 text-sm text-right">
+        - Dr. Zoya Mustafa
+      </p>
+    </div>
+  </div>
+
+
           
           <div className="grid grid-cols-1 gap-6 fade-in" style={{ animationDelay: '0.3s' }}>
             <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-primary-dark">
@@ -40,7 +42,7 @@ const About = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-primary-dark mb-2">Excellence in Care</h3>
                   <p className="text-gray-600">
-                    Our clinic maintains high standards of medical care with qualified professionals and modern equipment.
+                  At Muhammad Clinic, Dr. Zoya Mustafa delivers expert care with modern tools and a compassionate approach.
                   </p>
                 </div>
               </div>
@@ -54,7 +56,7 @@ const About = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-primary-dark mb-2">Compassionate Approach</h3>
                   <p className="text-gray-600">
-                    We believe in treating every patient with dignity, respect, and personalized attention.
+                  Dr. Zoya Mustafa treats every patient with dignity, care, and personal attention at every step.
                   </p>
                 </div>
               </div>
@@ -68,7 +70,7 @@ const About = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-primary-dark mb-2">Trusted Experience</h3>
                   <p className="text-gray-600">
-                    With extensive training and experience, our physicians provide reliable healthcare you can trust.
+                  With years of medical experience, Dr. Zoya Mustafa offers care you can rely on with complete confidence.
                   </p>
                 </div>
               </div>

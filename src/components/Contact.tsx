@@ -170,7 +170,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-gray-900 mb-1">Phone Number</h4>
                     <a href="tel:+923002500225" className="text-primary-dark hover:underline">
-                      +92 300 250 0225
+                      +92 3333149565
                     </a>
                   </div>
                 </div>
@@ -182,7 +182,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-gray-900 mb-1">Email Address</h4>
                     <a href="mailto:clinic@example.com" className="text-primary-dark hover:underline">
-                      drzoya@muhammadclinic.com
+                      drzoyamustafa14@gmail.com
                     </a>
                   </div>
                 </div>
@@ -203,18 +203,19 @@ const Contact = () => {
             
             {/* Google Maps */}
             <div className="bg-white p-4 rounded-lg shadow-md h-64 md:h-72">
-              <iframe
-                title="Muhammad Clinic Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.5815115015895!2d67.05367867512424!3d24.939170977778587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d1%3A0x93c22b35e93cbb82!2sAncholi%20Society%20Block%2020%2C%20F.B.%20Area%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1712570291961!5m2!1sen!2s"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen={false}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-lg"
-              ></iframe>
-            </div>
+  <iframe
+    title="R-621 Location"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.9523727770945!2d67.076712875124!3d24.945982584037204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fc16dd374d3%3A0x4a0f00f31c6afc54!2sIncholi!5e0!3m2!1sen!2s!4v1714981345084!5m2!1sen!2s"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen={false}
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    className="rounded-lg"
+  ></iframe>
+</div>
+
           </div>
         </div>
       </div>
