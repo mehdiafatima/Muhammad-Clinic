@@ -28,14 +28,14 @@ const Timings = () => {
                 <div className="flex justify-between items-center pb-2 border-b border-gray-200">
                   <div className="font-medium">Monday - Saturday</div>
                   <div className="text-primary-dark font-semibold">
-                    6:00 PM – 11:30 PM
+                    6:00 PM – 11:00 PM
                   </div>
                 </div>
                 <br></br>
                 <div className="flex justify-between items-center pb-2 border-b border-gray-200">
                   <div className="font-medium">Sunday</div>
                   <div className="text-primary-dark font-semibold">
-                    11:00 AM – 1:30 PM
+                    11:00 AM – 1:00 PM
                   </div>
                 </div>
                
