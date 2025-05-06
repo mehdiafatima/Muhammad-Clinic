@@ -1,10 +1,10 @@
 
-import { Baby, Heart, Activity, Stethoscope, Pill, Clipboard } from 'lucide-react';
+import { Baby, Heart, Activity, Stethoscope,Syringe, Pill, Clipboard } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const serviceItems = [
   {
-    title: "Paediatric Care",
+    title: "Pediatric Care",
     description: "Specialized healthcare for infants, children, and adolescents focusing on growth, development, and illness prevention.",
     icon: Baby,
     color: "bg-blue-50 text-blue-600"
@@ -14,6 +14,12 @@ const serviceItems = [
     description: "Comprehensive medical evaluations, diagnostic services, and treatment plans for patients of all ages.",
     icon: Stethoscope,
     color: "bg-emerald-50 text-emerald-600"
+  },
+  {
+    title: "Childhood Vaccinations",
+    description: "Routine vaccinations available as per the EPI schedule for children and expecting mothers.",
+    icon: Syringe, 
+    color: "bg-cyan-50 text-cyan-600"
   },
   {
     title: "Emergency Care",

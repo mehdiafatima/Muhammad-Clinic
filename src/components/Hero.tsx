@@ -1,5 +1,3 @@
-
-import { Stethoscope } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Hero = () => {
@@ -20,7 +18,7 @@ const Hero = () => {
               Dr. Zoya Mustafa
             </h2>
             <p className="text-lg text-gray-600 mb-3">
-              General Physician & Paediatric Emergency Physician
+              General Physician & Pediatric Emergency Physician
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
               <span className="bg-primary-light/10 text-primary-dark px-3 py-1 rounded-full text-sm font-medium">
@@ -30,7 +28,7 @@ const Hero = () => {
                 PEMC
               </span>
               <span className="bg-primary-light/10 text-primary-dark px-3 py-1 rounded-full text-sm font-medium">
-                Dip. Paediatrics, RCPI Ireland
+                Dip. Pediatrics, RCPI Ireland
               </span>
             </div>
             <div className="mt-8 flex flex-wrap gap-4">
@@ -48,15 +46,17 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          
-          {/* Image/Icon */}
+
+          {/* Image Instead of Icon */}
           <div className="w-full md:w-1/2 flex justify-center fade-in" style={{ animationDelay: '0.3s' }}>
             <div className="relative w-full max-w-md">
               <div className="w-72 h-72 md:w-80 md:h-80 bg-primary-dark/10 rounded-full mx-auto flex items-center justify-center">
-                <div className="w-60 h-60 md:w-72 md:h-72 bg-primary-dark/20 rounded-full flex items-center justify-center">
-                  <div className="w-48 h-48 md:w-56 md:h-56 bg-primary-dark rounded-full flex items-center justify-center text-white">
-                    <Stethoscope size={100} />
-                  </div>
+                <div className="w-60 h-60 md:w-72 md:h-72 bg-primary-dark/20 rounded-full flex items-center justify-center overflow-hidden">
+                  <img 
+                    src="/pic2.jpg" 
+                    alt="Dr. Zoya Mustafa" 
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
               </div>
               <div className="absolute bottom-0 right-0 bg-white p-4 rounded-lg shadow-lg">
@@ -67,6 +67,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -74,3 +75,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
