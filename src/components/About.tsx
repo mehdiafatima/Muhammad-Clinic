@@ -10,7 +10,7 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
   <div className="fade-in">
     <p className="text-gray-700 mb-6 leading-relaxed">
-      Muhammad Clinic is a community-focused medical center led by <strong>Dr. Zoya Mustafa</strong>, 
+      Muhammad Clinic is a community-focused medical center is led by <strong>Dr. Zoya Mustafa</strong>, 
       a dedicated and experienced physician providing personalized care in general medicine and pediatric emergencies.
     </p>
     <p className="text-gray-700 mb-6 leading-relaxed">
