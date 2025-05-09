@@ -1,11 +1,12 @@
 import { cn } from '@/lib/utils';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 
 const Hero = () => {
   return (
     <section id="hero" className="min-h-screen pt-20 flex items-center bg-gradient-to-b from-secondary-light to-white">
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row items-center gap-8">
-          {/* Text Content */}
+        
           <div className="w-full md:w-1/2 fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-dark mb-4">
               MUHAMMAD CLINIC
@@ -45,6 +46,26 @@ const Hero = () => {
                 Our Services
               </button>
             </div>
+
+           
+            <div className="mt-6 flex gap-4 items-center">
+              <a
+                href="https://www.facebook.com/profile.php?id=61573133612244" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-dark hover:text-primary-light text-2xl"
+              >
+                <FaFacebook />
+              </a>
+              <a
+                href="https://www.instagram.com/naqvi_1983/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-dark hover:text-primary-light text-2xl"
+              >
+                <FaInstagram />
+              </a>
+            </div>
           </div>
 
           {/* Image Instead of Icon */}
@@ -75,5 +96,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
